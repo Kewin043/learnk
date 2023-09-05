@@ -1,4 +1,4 @@
 import pandas as pd
-dict = {'Yes': [50, 21], 'No': [131, 2]}
+dict = {'Yes': [10,20,30], 'No': [0,1,2]}
 Data = pd.DataFrame(dict)
 Data
