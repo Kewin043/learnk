@@ -7,7 +7,7 @@ df = pd.DataFrame({'name': ['Anastasia', 'Dima', 'Katherine', 'James', 'Emily', 
                   index =['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j'])
 df=df.fillna(0)
 print(df)
-result1 = df.sort_values(by='score')
-print(result1)
-result = result1.sort_values(by='name' , ascending = False)
+result = df.sort_values(by=['name','score'],ascending = False)
 print(result)
+
+
